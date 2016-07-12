@@ -1,0 +1,214 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="ExhaustiveQ.stories"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Stories" Foreground="DeepPink">
+
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="Motivational">
+
+
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="/images/self.jpg"/>
+                    </Grid.Background>
+
+
+                </Grid>
+
+            </controls:PanoramaItem>
+
+            <controls:PanoramaItem Header="ARE YOU A?" Foreground="Chocolate">
+
+
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Foreground="#FF9DDE2B">  
+                            <Bold Foreground="Aqua">COFFEE, EGGS AND CARROTS
+                             <LineBreak/>
+                            
+                            </Bold>
+                            A young woman went to her mother and told her about her life and how things were so hard for her. She did not know how she was going to make it and wanted to give up. She was tired of fighting and struggling.
+                            <LineBreak/>
+                            <LineBreak/>
+It seemed that, as one problem was solved, a new one arose. Her mother took her to the kitchen. She filled three pots with water and placed each on a high fire. Soon the pots came to a boil. In the first, she placed carrots, in the second she placed eggs, and in the last she placed ground coffee beans.
+                            <LineBreak/>
+                            <LineBreak/>
+She let them sit and boil, without saying a word. In about twenty minutes, she turned off the burners. She fished the carrots out and placed them in a bowl. She pulled the eggs out and placed them in a bowl. Then she ladled the coffee out and placed it in a bowl. Turning to her daughter, she asked, "Tell me, what do you see?"
+ <LineBreak/>
+                            <LineBreak/>
+  "Carrots, eggs, and coffee," the young woman replied. The mother brought her closer and asked her to feel the carrots. She did and noted that they were soft. She then asked her to take an egg and break it. After pulling off the shell, she observed the hard-boiled egg. Finally, she asked her to sip the coffee. The daughter smiled as she tasted its rich aroma. The daughter then asked, "What does it mean, mother?"
+
+
+ Her mother explained that each of these objects had faced the same adversity - boiling water - but each reacted differently. The carrot went in strong, hard and unrelenting. However, after being subjected to the boiling water, it softened and became weak.
+
+                             <LineBreak/>
+                            <LineBreak/>
+The egg had been fragile. Its thin outer shell had protected its liquid interior. But, after sitting through the boiling water, its inside became hardened! The ground coffee beans were unique, however. After they were in the boiling water, they had changed the water.
+
+  <LineBreak/>
+   <LineBreak/>
+      "Which are you?" the mother asked her daughter. "When adversity knocks on your door, how do you respond? Are you a carrot, an egg, or a coffee bean?"  Think of this: Which am I? Am I the carrot that seems strong but, with pain and adversity, do I wilt and become soft and lose my strength? Am I the egg that starts with a malleable heart, but changes with the heat?  Did I have a fluid spirit but, after a death, a breakup, or a financial hardship, does my shell look the same, but on the inside am I bitter and tough with a stiff spirit and a hardened heart? Or am I like the coffee bean? The bean actually changes the hot water, the very circumstance that brings the pain. When the water gets hot, it releases the fragrance and flavour.
+If you are like the bean, when things are at their worst, you get better and change the situation around you. When the hours are the darkest and trials are their greatest, do you elevate to another level? How do you handle adversity? Are you a carrot, an egg, or a coffee bean?
+                            
+                        </TextBlock>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+
+
+            <controls:PanoramaItem Header="More Stories">
+
+                <Grid>
+
+                    <ScrollViewer>
+
+                        <TextBlock TextWrapping="Wrap">
+It Is Not The Color
+here was a man who made a living selling balloons at a
+fair. He had almost all colors of balloons, including red,
+yellow, blue, and green. Whenever business was slow, (guess
+what?) he would release a Helium-filled balloon into the air
+and when the children saw it go up, they all wanted to buy one.
+They would come up to him, buy a balloon and his sales would
+go up again. He continued this process all day.
+One day, he felt someone tugging at his jacket. He turned
+around and saw a little boy who asked, “if you release a black
+balloon, would that also fly?” Moved by the boy’s concern,
+the man replied with empathy, “Son, It Is Not The Color of the
+balloon; it is what is inside that makes it go up.”
+                            <LineBreak />
+                            <LineBreak />
+ Too Big To Miss
+ We all know the story of David and Goliath. There was a
+giant who was bullying and harassing the children in the
+village. One day a 17-year-old boy came to visit his brothers
+and asked, “Why don’t you stand up and fight the giant?” The
+brothers were terrified and they replied, “Don’t you see he is
+too big to hit?” But David said, “No, he is not too big to hit, he
+is Too Big To Miss.” The rest is history.
+We all know what happened. David killed the giant with a
+sling. Same giant, different perception.
+Let Me Remember . . .
+The dollar bills the customer gets from the teller in four banks are the same.
+What is different are the tellers.
+<LineBreak/>
+Dealing With People
+As a young Scots boy, Andrew Carnegie came to America
+and started doing odd jobs. He ended up as one of the largest
+steel manufacturers in the United States!
+At one time he had 43 millionaires (yes, 43 millionaires)
+working for him. Several decades ago, a million dollars used
+to be a lot of money (sure!). Even today it is a lot of money.
+Someone asked Mr. Carnegie how he dealt with people?
+Andrew Carnegie replied, “Dealing With People is like
+digging gold: When you go digging for an ounce of gold, you
+have to move tons of dirt to get an ounce of gold. But when
+you go digging, you don’t go looking for the dirt, you go
+looking for the gold."                            
+      <LineBreak />
+Your Dog Can’t Swim
+There was a hunter who bought a bird dog, the only one of
+its kind in the world that could walk on water. He couldn’t
+believe his eyes when he saw this miracle. At the same time,
+he was very pleased that he could show off his new acquisition
+to his friends. He invited a friend to go duck hunting. After
+some time, they shot a few ducks and the man ordered his dog
+to run and fetch the birds. All day-long, the dog ran on water
+and kept fetching the birds.
+The owner was expecting a comment or a compliment about
+this amazing dog, but never got one. As they were returning
+home, he asked his friend if he had noticed anything unusual
+about his dog. The friend replied, “Yes, in fact, I did notice
+something unusual. Your Dog Can’t Swim.”
+<LineBreak />
+<LineBreak />                            
+
+                            
+                      </TextBlock>
+
+                    </ScrollViewer>
+
+                </Grid>
+
+            </controls:PanoramaItem>
+
+            <!--Panorama item Four-->
+            <controls:PanoramaItem Header="More Stories">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Foreground="#FF9DDE2B">                          
+We Are Ahead of Time
+ <LineBreak />
+There is a story about a man who sold hotdogs by the roadside. He
+was illiterate, so he never read newspapers. He was hard of hearing,
+so he never listened to the radio. His eyes were weak, so he never
+watched television. But enthusiastically, he sold lots of hotdogs. His
+sales and profit went up. He ordered more meat and got himself a
+bigger and a better stove. As his business was growing, the son, who
+had recently graduated from college, joined his father.
+Then something strange happened. The son asked, “Dad, aren’t you
+aware of the great recession that is coming our way?” The father
+replied, “No, but tell me about it.” The son said, “The international
+situation is terrible. The domestic is even worse. We should be
+prepared for the coming bad time.”
+The man thought that since his son had been to college, read the
+papers, and listened to the radio, he ought to know and his advice
+should not be taken lightly. So the next day, the father cut down his
+order for the meat and buns, took down the sign and was no loner
+enthusiastic. Very soon, fewer and fewer people bothered to stop at
+his hotdog stand. And his sales started coming down rapidly. The
+father said to his son, “Son, you were right. We are in the middle of a
+recession. I am glad you warned me Ahead Of Time.”
+<LineBreak />
+    There is no security on this earth; there is only opportunity.                        
+                        </TextBlock>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="More Stories">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Foreground="#FF9DDE2B"> 
+                            Sharpen My Axe
+                            <LineBreak/>
+                            
+John, woodcutter, worked for a company for five years but
+never got a raise. The company hired Bill and within a year he
+got a raise. This caused resentment in John and he went to his
+boss to talk about it. The boss said, “You are still cutting the
+same number of trees you were cutting five years ago. We are
+a result-oriented company and would be happy to give you a
+raise if your productivity goes-up.”
+John went back, started hitting harder and putting in longer
+hours but he still wasn’t able to cut more trees. He went back
+to his boss and told him his dilemma. The boss told John to go
+talk to Bill. “Maybe there is something Bill knows that you and
+I don’t.” John asked Bill how he managed to cut more trees.
+Bill answered, “After every tree I cut, I take a break for two
+minutes and Sharpen My Axe.”
+                            <LineBreak />
+Efficiency is doing things right. Effectiveness is doing the right things.
+                        </TextBlock>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+</phone:PhoneApplicationPage>

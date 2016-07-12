@@ -1,0 +1,258 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="ExhaustiveQ.Plife"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Life Quotes" Foreground="DeepPink">
+
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="QUOTES" Foreground="Chocolate">
+                <Grid>
+                    <Grid.Background>
+                      
+                        <ImageBrush ImageSource="/images/life_quotes.jpg" Stretch="Uniform"/>
+                    </Grid.Background>
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <controls:PanoramaItem Header="More Quotes" Foreground="Chocolate">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Foreground="Cyan">
+                            “Do one thing every day that scares you.”—Eleanor Roosevelt
+As year’s end approaches, one tends (well, I tend) to think a little bit philosophically. To
+do the accounts of the year past—and to imagine the year to come. As I began that not
+(for me) very systematic process, I stumbled across the Eleanor Roosevelt remark above.
+And it got me thinking—the whole point. To add a little fuel to the fire I mined a few old
+presentations for more spurs to both reflection and forethought. What emerged, in ever so
+haphazard a fashion, follows. It is not a listing of “business quotes,” though 100% are
+applicable to business. It is not a set of “motivational quotes” (perish the thought), though
+most are in some sense motivational. I guess it simply is what it is ... some comments that
+may help you, if you’re so inclined, to ruminate on where you’ve been and where you
+might go in 2006:
+                            <LineBreak/>
+                            <LineBreak/>
+“Do one thing every day that scares you.”—Eleanor Roosevelt
+ <LineBreak/>
+                            <LineBreak/>
+                            “Life is either a daring adventure, or nothing.”—Helen Keller
+
+                             <LineBreak/>
+                            <LineBreak/>“Tell me, what is it you plan to do with your one wild and precious
+life?”—Mary Oliver
+                             <LineBreak/>
+                            <LineBreak/>
+“Dream as if you’ll live forever. Live as if you’ll die today.”—James Dean
+ <LineBreak/>
+                            <LineBreak/>
+                            “The two most powerful things in existence: a kind word and a thoughtful
+gesture.”—Ken Langone, founder, Home Depot
+                             <LineBreak/>
+                            <LineBreak/>
+“The deepest human need is the need to be appreciated.”—William James
+“Don’t belittle!”—OD Consultant, on the essence of a well-functioning human
+community
+                             <LineBreak/>
+                            <LineBreak/>
+“If you don’t listen, you don’t sell anything.”—Carolyn Marland/
+MD/Guardian Group
+                             <LineBreak/>
+                            <LineBreak/>
+                            “Stay Hungry. Stay Foolish.”—Steve Jobs, Apple
+“Groups become great only when everyone in them, leaders and members alike, is free to
+do his or her absolute best.”—Warren Bennis and Patricia Ward Biederman, Organizing
+Genius
+                             <LineBreak/>
+                            <LineBreak/>
+“The best thing a leader can do for a Great Group is to allow its members to discover
+their greatness.”—Warren Bennis and Patricia Ward Biederman, Organizing Genius
+“You are the storyteller of your own life, and you can create your own legend
+or not.”—Isabel Allende
+                             <LineBreak/>
+                            <LineBreak/>
+“Nobody can prevent you from choosing to be exceptional.”—Mark
+Sanborn, The Fred Factor
+                             <LineBreak/>
+                            <LineBreak/>
+“A leader is a dealer in hope.”—Napoleon
+                             <LineBreak/>
+                            <LineBreak/>
+“Nothing is so contagious as enthusiasm.”—Samuel Taylor Coleridge
+ <LineBreak/>
+                            <LineBreak/>
+                            “If you’re enthusiastic about the things you’re working on, people will come ask you to
+do interesting things.”—James Woolsey, former CIA director
+ <LineBreak/>
+                            <LineBreak/>
+                            “Before you can inspire with emotion, you must be swamped with it yourself. Before
+you can move their tears, your own must flow. To convince them, you must yourself
+believe.”—Winston Churchill
+                             
+                        </TextBlock>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+
+            <controls:PanoramaItem Header="More Quotes" Foreground="Chocolate">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Foreground="Aqua">
+                            “What creates trust, in the end, is the leader’s manifest respect for the
+followers.”—Jim O’Toole, Leading Change
+                            <LineBreak/>
+                            <LineBreak/>
+“If you can’t state your position in eight words or less, you don’t have a
+position.”—Seth Godin
+                            <LineBreak/>
+                            <LineBreak/>
+“Never doubt that a small group of committed people can change the
+world. Indeed it is the only thing that ever has.”—Margaret Mead
+                            <LineBreak/>
+                            <LineBreak/>
+“Make your life itself a creative work of art.”—Mike Ray, The Highest Goal
+“Have you invested as much this year in your career as in your car?”—Molly Sargent,
+OD consultant and trainer
+                            <LineBreak/>
+                            <LineBreak/>
+“The most successful people are those who are good at plan B.”—James Yorke,
+mathematician, on chaos theory in The New Scientist
+                            <LineBreak/>
+                            <LineBreak/>
+“Tom, what have you done this year?”—Jessica Sutherland, Director, Institute for
+International Research/Middle East
+                            <LineBreak/>
+                            <LineBreak/>
+“To live is the rarest
+thing in the world.
+Most people exist,
+that is all.”
+—Oscar Wilde
+                        <LineBreak/>
+                            <LineBreak/>
+“People want to be part of something larger than themselves. They want to be
+part of something they’re really proud of, that they’ll fight for, sacrifice for, that
+they trust.”—Howard Schultz, Starbucks
+                            <LineBreak/>
+                            <LineBreak/>
+                           “It is not the strongest of the species that survives, nor the most intelligent, but the one
+most responsive to change.”—Charles Darwin
+                            <LineBreak/>
+                            <LineBreak/>
+“We may not be interested in chaos but chaos is interested in us.”—Robert Cooper, The
+Breaking of Nations: Order and Chaos in the Twenty-first Century
+                            <LineBreak/>
+                            <LineBreak/>
+“If you don’t like change, you’re going to like irrelevance even less.”—General Eric
+Shinseki, retired Chief of Staff, U. S. Army
+                            <LineBreak/>
+                            <LineBreak/>
+
+                        </TextBlock>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="More Quote" Foreground="Chocolate">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Foreground="Aqua">
+                            “You must be the change you wish to see in the world.”—Gandhi
+                            <LineBreak/>
+                            <LineBreak/>
+“We eat change for breakfast!”—Harry Quadracci, founder, QuadGraphics
+                            <LineBreak/>
+                            <LineBreak/>
+“If things seem under control, you’re just not going fast enough.”—Mario Andretti
+                            <LineBreak/>
+                            <LineBreak/>
+“You can’t behave in a calm, rational manner. You’ve got to be out there on the lunatic
+fringe.”—Jack Welch, retired CEO, GE
+                            <LineBreak/>
+                            <LineBreak/>
+“We have a ‘strategic’ plan. It’s called doing things.”—Herb Kelleher, founder,
+Southwest Airlines
+<LineBreak/>
+                            <LineBreak/>
+A man approached JP Morgan, held up an envelope, and said, “Sir, in
+my hand I hold a guaranteed formula for success, which I will gladly
+sell you for $25,000.” “Sir,” JP Morgan replied, “I do not know what is
+in the envelope, however if you show me, and I like it, I give you my
+word as a gentleman that I will pay you what you ask.” The man agreed
+to the terms, and handed over the envelope. JP Morgan opened it, and
+extracted a single sheet of paper. He gave it one look, a mere glance,
+then handed the piece of paper back to the gent. And paid him the
+agreed-upon $25,000.
+The Paper:
+                            <LineBreak/>
+1. Every morning, write a list of the things that need to be done that
+day.
+                            <LineBreak/>
+2. Do them.
+<LineBreak/>
+                            <LineBreak/>
+“I guess it comes down to a simple choice, really. Get busy living, or get busy
+dying.”—The Shawshank Redemption (Tim Robbins)
+                            <LineBreak/>
+                            <LineBreak/>
+“A man without a smiling face must not open a shop.”—Chinese
+Proverb
+                             <LineBreak/>
+                            <LineBreak/>
+“If your actions inspire others to dream more, learn more, do more and become more, you
+are a leader."—John Quincy Adams
+                             <LineBreak/>
+                            <LineBreak/>
+The greatest danger
+for most of us
+is not that our aim is
+too high
+and we miss it,
+but that it is
+too low
+and we reach it.
+Michelangelo
+                             <LineBreak/>
+                            <LineBreak/>
+    <LineBreak/>                        Tom Peters*: Leadership is all about love:
+Passion,
+                            <LineBreak/>
+Enthusiasms,
+                            <LineBreak/>
+Appetite for Life,
+                            <LineBreak/>
+Engagement,
+                            <LineBreak/>
+Great Causes and  Determination to Make a Damn Difference,
+                        <LineBreak/>
+  Commitment to Excellence,
+                               <LineBreak/>
+Shared Adventures,
+                      <LineBreak/>         
+                            
+                            
+Bizarre Failures,
+                               <LineBreak/>
+Growth Beyond Measure,
+                               <LineBreak/>
+Insatiable Appetite for Change
+                        </TextBlock>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,535 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="ExhaustiveQ.Pmotivational"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Motivational Quotes" Foreground="DeepPink">
+
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="Quotes" Foreground="Chocolate">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="/images/motive10.jpg"/>
+                    </Grid.Background>
+
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <controls:PanoramaItem Header="More Quotes" Foreground="Chocolate">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Foreground="Cyan">
+                            People who are unable to motivate themselves must be content with
+mediocrity, no matter how impressive their other talents.
+—Andrew Carnegie
+                            <LineBreak />
+                            <LineBreak />
+The difference between a successful person and others is not a lack of
+strength, not a lack of knowledge, but rather in a lack of will.
+—Vincent T. Lombardi
+                             <LineBreak />
+                            <LineBreak />
+People are always blaming their circumstances for what they are. I don’t
+believe in circumstances. The people who get on in this world are the people
+who get up and look for the circumstances they want, and, if they can’t
+find them, make them.
+—George Bernard Shaw
+                             <LineBreak />
+                            <LineBreak />
+Watch your thoughts; they become words. Watch your words; they become
+actions. Watch your actions; they become habits. Watch your habits; they
+become your character. Watch your character; it becomes your destiny.
+—Frank Outlaw
+                             <LineBreak />
+                            <LineBreak />
+Whether you think you can or whether you think you can’t, you’re right.
+—Henry Ford
+                             <LineBreak />
+                            <LineBreak />
+I don’t measure a man’s success by how high he climbs but how high he
+bounces when he hits the bottom.
+—General George S. Patton
+                             <LineBreak />
+                            <LineBreak />
+The way to get started is to quit talking and begin doing.
+—Walt Disney
+                             <LineBreak />
+                            <LineBreak />
+What you get by achieving your goals is not as important as what you
+become by achieving your goals.
+—Zig Ziglar
+                             <LineBreak />
+                            <LineBreak />
+Four short words sum up what has lifted most successful individuals above
+the crowd: a little bit more. They did all that was expected of them and a
+little bit more.
+—A. Lou Vickery
+                             <LineBreak />
+                            <LineBreak />
+Only those who dare to fail greatly, can ever achieve greatly.
+—Robert Kennedy
+                             <LineBreak />
+                            <LineBreak />
+Do not go where the path may lead; go instead where there is
+no path and leave a trail.
+—Ralph Waldo Emerson
+                             <LineBreak />
+                            <LineBreak />
+The best way you can predict your future is to create it.
+—Stephen Covey
+                             <LineBreak />
+                            <LineBreak />
+If you want to know your past - look into your present conditions. If you want
+to know your future - look into your present actions.
+—Chinese proverb
+                             <LineBreak />
+                            <LineBreak />
+There is more hunger for love and appreciation in this world than for bread.
+—Mother Teresa
+                             <LineBreak />
+                            <LineBreak />
+It’s how you deal with failure that determines how you achieve success.
+—David Feherty
+                             <LineBreak />
+                            <LineBreak />
+It is not because things are difficult that we do not dare; it is because we do
+not dare that they are difficult.
+—Seneca
+                             <LineBreak />
+                            <LineBreak />
+ Many of life’s failures are people who did not realise how close they were to
+success when they gave up.
+—Thomas Edison
+                             <LineBreak />
+
+
+                        </TextBlock>
+                    </ScrollViewer>
+                        
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="More Quotes" Foreground="Chocolate">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Foreground="Cyan">
+                            <LineBreak />
+Our deepest fear is not that we are inadequate. Our deepest fear is that we
+are powerful beyond measure. It is our light, not our darkness that most
+frightens us. We ask ourselves, Who am I to be brilliant, gorgeous, talented,
+fabulous? Actually, who are you not to be? You are a child of God. Your
+playing small does not serve the world. There is nothing enlightened about
+shrinking so that other people won’t feel insecure around you. We are all
+meant to shine, as children do.
+—Marianne Williamson
+                             <LineBreak />
+                            <LineBreak />
+The most wasted day of all is that on which we have not laughed.
+—Nicholas Chamfort
+                             <LineBreak />
+                            <LineBreak />
+Faith moves mountains, but you have to keep pushing while you’re praying.
+—Mason Cooley
+                             <LineBreak />
+                            <LineBreak />
+People will forget what you said, people will forget what you did, but people
+will never forget how you made them feel.
+—Maya Angelou
+                             <LineBreak />
+                            <LineBreak />
+No-one is a failure until they blame somebody else.
+—Charles “Tremendous” Jones
+                             <LineBreak />
+                            <LineBreak />
+The more you praise and celebrate your life, the more there is in life to
+celebrate.
+—Oprah Winfrey
+                             <LineBreak />
+                            <LineBreak />
+The ultimate measure of a person is not where they stand in moments of
+comfort and convenience, but where they stand in times of challenge
+and controversy.
+—Martin Luther King, Jr.
+                             <LineBreak />
+                            <LineBreak />
+You must be the change you wish to see in the world.
+—Mahatma Gandhi
+                             <LineBreak />
+                            <LineBreak />
+Blessed are those who can give without remembering and take
+without forgetting.
+—Elizabeth Bibesco
+                             <LineBreak />
+                            <LineBreak />
+ Some cause happiness wherever they go; others whenever they go.
+—Oscar Wilde
+                             <LineBreak />
+                            <LineBreak />
+Courage is what it takes to stand up and speak; courage is also what it takes
+to sit down and listen.
+—Winston Churchill
+                             <LineBreak />
+                            <LineBreak />
+Most people can do extraordinary things if they have the confidence or take
+the risks. Yet most people don’t. They sit in front of the telly and treat life as
+if it goes on forever.
+—Philip Andrew Adams
+                             <LineBreak />
+                            <LineBreak />
+Destiny is not a matter of chance, it is a matter of choice.
+—William Jennings Bryan
+                             <LineBreak />
+                            <LineBreak />
+I count him braver who overcomes his desires than him who conquers his
+enemies; for the hardest victory is the victory over self.
+—Aristotle
+                             <LineBreak />
+                            <LineBreak />
+Life’s most urgent question is: what are you doing for others?
+—Martin Luther King, Jr.
+                             <LineBreak />
+                            <LineBreak />
+ Life is not lost by dying; life is lost minute by minute, day by dragging day, in
+all the thousand small uncaring ways.
+—Stephen Vincent Benet
+                             <LineBreak />
+                            <LineBreak />
+It’s no use saying, ‘We are doing our best’. You have got to succeed in doing
+what is necessary.
+—Winston Churchill
+                             <LineBreak />
+                            <LineBreak />
+
+                        </TextBlock>
+                    </ScrollViewer>
+
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="More Quotes" Foreground="Chocolate">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Foreground="Cyan">
+Let no-one ever come to you without leaving better and happier. Be the
+living expression of God’s kindness: kindness in your face, kindness in
+your eyes, kindness in your smile.
+—Mother Teresa
+                             <LineBreak />
+                            <LineBreak />
+The power of man’s virtue should not be measured by his special efforts, but
+by his ordinary doings.
+—Blaise Pascal
+                             <LineBreak />
+                            <LineBreak />
+Not everything that can be counted counts, and not everything that counts
+can be counted.
+—Albert Einstein
+                             <LineBreak />
+                            <LineBreak />
+Some men have thousands of reasons why they cannot do what they want
+to, when all they need is one reason why they can.
+—Willis Whitney
+                             <LineBreak />
+                            <LineBreak />
+Time and health are two precious assets that we don’t recognise and
+appreciate until they have been depleted.
+—Denis Waitley
+                             <LineBreak />
+                            <LineBreak />
+We do not sing because we are happy; we are happy because we sing.
+—William James
+                             <LineBreak />
+                            <LineBreak />
+And in the end, it’s not the years in your life
+that count. It’s the life in your years.
+—Abraham Lincoln
+                             <LineBreak />
+                            <LineBreak />
+It is not how much we have, but how much we enjoy, that makes happiness.
+—Charles Spurgeon
+                             <LineBreak />
+                            <LineBreak />
+Feeling sorry for yourself and your present condition is not only a waste of
+energy, but the worst habit you could possibly have.
+—Dale Carnegie
+                             <LineBreak />
+                            <LineBreak />
+Two kinds of gratitude: the sudden kind we feel for what we take; the larger
+kind we feel for what we give.
+—Edwin Arlington Robinson
+                             <LineBreak />
+                            <LineBreak />
+Poor is the man whose pleasures depend on the permission of another.
+—Madonna
+                             <LineBreak />
+                            <LineBreak />
+For it was not into my ear you whispered, but into my heart. It was not my
+lips you kissed, but my soul.
+—Judy Garland
+                             <LineBreak />
+                            <LineBreak />
+        We always take credit for the good and attribute the bad to fortune.
+—Jean de la Fontaine
+                             <LineBreak />
+                            <LineBreak />
+I attribute my success to this: I never gave or took an excuse.
+—Florence Nightingale
+                             <LineBreak />
+                            <LineBreak />
+A person of intellect without energy added to it, is a failure.
+—Sebastien-Roch Nicolas de Chamfort
+                             <LineBreak />
+                            <LineBreak />
+Life is like riding a bike. It is impossible to maintain your balance while
+standing still.
+—Linda Brakeall
+                             <LineBreak />
+                            <LineBreak />
+The problems of this world cannot possibly be solved by skeptics or cynics
+whose horizons are limited by the obvious realities. We need men who can
+dream of things that never were.
+—John. F. KennedyDon’t wait.
+                             <LineBreak />
+                            <LineBreak />The time will never be just right.
+—Napoleon Hill
+                             <LineBreak />
+                            <LineBreak />
+Will you look back on life and say, ‘I wish I had,’ or ‘I’m glad I did’?
+—Zig Ziglar
+                             <LineBreak />
+                            <LineBreak />
+
+                        </TextBlock>
+                    </ScrollViewer>
+
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="More Quotes" Foreground="Chocolate">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock Foreground="Aqua" TextWrapping="Wrap">
+Attempt easy tasks as if they were difficult, and difficult as if they were easy;
+in the one case that confidence may not fall asleep, in the other that it may
+not be dismayed.
+—Baltasar Gracian
+                             <LineBreak />
+                            <LineBreak />
+Too many of us are hung up on what we don’t have, can’t have, or won’t
+ever have. We spend too much energy being down, when we could use that
+same energy - if not less of it - doing, or at least trying to do, some of the
+things we really want to do.
+—Terry McMillan
+                             <LineBreak />
+                            <LineBreak />
+The trick is not how much pain you feel but how much joy you feel. Any idiot
+can feel pain. Life is full of excuses to feel pain, excuses not to live; excuses,
+excuses, excuses.
+—Erica Jong
+                             <LineBreak />
+                            <LineBreak />
+Some of the world’s greatest feats were accomplished by people not smart
+enough to know they were impossible.
+—Doug Larson
+                             <LineBreak />
+                            <LineBreak />
+You can make more friends in two months by becoming interested in other
+people than you can in two years by trying to get other people interested
+in you.
+                             <LineBreak />
+                            <LineBreak />
+—Dale Carnegie
+You can’t have a better tomorrow if you are thinking about yesterday all
+the time.
+                             <LineBreak />
+                            <LineBreak />
+—Charles F. Kettering
+We first make our habits, and then our habits make us.
+—John Dryden
+                             <LineBreak />
+                            <LineBreak />
+Friendship improves happiness, and abates misery, by doubling our joys,
+and dividing our grief.
+—Joseph Addison
+                             <LineBreak />
+                            <LineBreak />
+Some of us might find happiness if we quit struggling so desperately for it.
+—William Feather
+                             <LineBreak />
+                            <LineBreak />
+A hero is an ordinary individual who finds the strength to persevere and
+endure in spite of overwhelming obstacles.
+—Christopher Reeve
+                             <LineBreak />
+                            <LineBreak />
+There are two kinds of failures: those who thought and never did, and
+those who did and never thought.
+—Laurence J. Peter
+                             <LineBreak />
+                            <LineBreak />
+All that we are is the result of what we have thought.
+—Buddha
+                             <LineBreak />
+                            <LineBreak />
+Intelligence is not to make no mistakes, but quickly to see how to make
+them good.
+—Elbert Hubbard
+                             <LineBreak />
+                            <LineBreak />
+How wonderful it is that nobody need wait a single minute before starting
+to improve the world.
+—Anne Frank
+                             <LineBreak />
+                            <LineBreak />
+Laziness grows on people; it begins in cobwebs and ends in iron chains.
+The more one has to do, the more he is able to accomplish.
+—Thomas Buxton
+                             <LineBreak />
+                            <LineBreak />
+A pessimist sees the difficulty in every opportunity; an optimist sees the
+opportunity in every difficulty.
+—Winston Churchill
+                             <LineBreak />
+                            <LineBreak />
+A man is but the product of his thoughts - what he thinks, he becomes.
+—M.K. Gandhi
+                             <LineBreak />
+                            <LineBreak />
+We do not see things as they are. We see them as we are.
+—Talmud
+ <LineBreak />
+                            <LineBreak />
+
+                           </TextBlock>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="More Quotes" Foreground="Chocolate">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Foreground="Cyan">
+                            The most annoying thing about hindsight is that for
+some of us, it was foresight, but no-one would listen.
+—Jonar Nader
+                             <LineBreak />
+                            <LineBreak />
+ The rung of a ladder was never meant to rest upon, but only to hold a
+man’s foot long enough to enable him to put the other somewhat higher.
+—Thomas Huxley
+                             <LineBreak />
+                            <LineBreak />
+The function of leadership is to produce more leaders, not more followers.
+—Ralph Nader
+                             <LineBreak />
+                            <LineBreak />
+The key to successful leadership today is influence, not authority.
+—Kenneth Blanchard
+                             <LineBreak />
+                            <LineBreak />
+It’s not knowing what to do, it’s doing what you know.
+—Anthony Robbins
+                            What counts is not necessarily the size of the dog in the fight - it’s the size of
+the fight in the dog.
+—Dwight D. Eisenhower
+                             <LineBreak />
+                            <LineBreak />
+There is no use whatever trying to help people who do not help themselves.
+You cannot push anyone up a ladder unless he be willing to climb himself.
+—Andrew Carnegie
+                             <LineBreak />
+                            <LineBreak />
+The greatest mistake you can make in life is to be continually fearing that
+you will make one.
+—Elbert Hubbard
+                             <LineBreak />
+                            <LineBreak />
+Each of my days are miracles. I won’t waste my day;
+I won’t throw away a miracle.
+—Kelley Vicstrom
+                             <LineBreak />
+                            <LineBreak />
+We can often do more for other men by trying to correct our own faults than
+by trying to correct theirs.
+—Francois Fenelon
+                             <LineBreak />
+                            <LineBreak />
+He is rich or poor according to what he is, not according to what he has.
+—Henry Ward Beecher
+                             <LineBreak />
+                            <LineBreak />
+Don’t be afraid your life will end; be afraid that it will never begin.
+—Grace Hansen
+                             <LineBreak />
+                            <LineBreak />
+A smile is the light in your window that tells others that there is a caring,
+sharing person inside.
+—Denis Waitley
+                             <LineBreak />
+                            <LineBreak />
+If you aren’t fired with enthusiasm, you will be fired with enthusiasm.
+—Vincent Lombardi
+                             <LineBreak />
+                            <LineBreak />
+If you don’t like something, change it. If you can’t change it, change
+your attitude. Don’t complain.
+—Maya Angelou
+                             <LineBreak />
+                            <LineBreak />
+Live as you will have wished to have lived when you are dying.
+—Christian Furchtegott Gellert
+                             <LineBreak />
+                            <LineBreak />
+We tend to live up to our expectations.
+—Earl Nightingale
+                             <LineBreak />
+                            <LineBreak />
+A man is not finished when he’s defeated; he’s finished when he quits.
+—Richard M. Nixon
+                             <LineBreak />
+                            <LineBreak />
+If you do the things you need to do when you need to do them, then
+someday you can do the things you want to do when you want to do them.
+—Zig Ziglar       
+                             <LineBreak />
+                            <LineBreak />
+Better to do something imperfectly than to do nothing flawlessly.
+—Robert Schuller
+                             <LineBreak />
+                            <LineBreak />
+Knowing is not enough; we must apply. Willing is not enough; we must do.
+—Johann von Goethe
+                            <LineBreak />
+                            <LineBreak />
+                            It’s not enough to be busy - so are the ants. The question is, what are
+we busy about?
+
+—Henry David Thoreau
+                     <LineBreak />
+                            <LineBreak />       
+                            
+Time is like money: the less we have of it to spare the further we make it go.
+—Josh Billing
+
+                             <LineBreak />
+                            <LineBreak />
+
+                        </TextBlock>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+        
+    </Grid>
+
+</phone:PhoneApplicationPage>

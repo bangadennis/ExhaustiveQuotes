@@ -1,0 +1,470 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="ExhaustiveQ.PivotPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <controls:Pivot Title="INSPIRATIONAL QUOTES" Foreground="Chocolate">
+            <!--Pivot item one-->
+
+
+            <controls:PivotItem Header="More Q">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush Stretch="Uniform" ImageSource="/images/inspire.jpg"/>
+                    </Grid.Background>
+
+                </Grid>
+            </controls:PivotItem>
+            
+            <controls:PivotItem Header="Quotes" Foreground="Chocolate">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Foreground="Cyan">
+                            Action may not always bring happiness; but there is no happiness
+without action.
+                         
+—Benjamin Disraeli
+                             <LineBreak />
+                            <LineBreak />
+Am I not destroying my enemies when I make friends of them?
+—Abraham Lincoln
+                             <LineBreak />
+                            <LineBreak />
+Live as if you were to die tomorrow. Learn as if you were to live forever.
+—M.K. Gandhi
+                             <LineBreak />
+                            <LineBreak />
+Imagination is more important than knowledge.
+—Albert Einstein
+                             <LineBreak />
+                            <LineBreak />
+Success is the ability to go from failure to failure without losing
+your enthusiasm.
+—Sir Winston Churchill
+                             <LineBreak />
+                            <LineBreak />
+The walls we build around us to keep out the sadness also keep out the joy.
+—Jim Rohn
+                             <LineBreak />
+                            <LineBreak />
+Learn how to be happy with what you have while you pursue all that
+you want.
+—Jim Rohn
+                             <LineBreak />
+                            <LineBreak />
+Ability is a poor man’s wealth.
+—M. Wren
+                             <LineBreak />
+                            <LineBreak />
+Far better it is to dare mighty things, to win glorious triumphs, even
+though checkered by failure, than to take rank with those poor souls
+who neither enjoy much nor suffer much, because they live in the gray
+twilight that knows neither victory nor defeat.
+—Theodore Roosevelt
+                             <LineBreak />
+                            <LineBreak />
+I am a great believer in luck, and I find the harder I work the more
+I have of it.
+—Thomas Jefferson
+                             <LineBreak />
+                            <LineBreak />
+The most important thing you can do to achieve your goals is to make sure
+that as soon as you set them, you immediately begin to create momentum.
+—Anthony Robbins
+                             <LineBreak />
+                            <LineBreak />
+If a window of opportunity appears, don’t pull down the shade.
+—Thomas J. Peters
+                             <LineBreak />
+                            <LineBreak />
+A window of opportunity won’t open itself.
+—Dave Weinbaum
+                                                        <LineBreak />
+                            <LineBreak />
+Before you speak, listen. Before you write, think. Before you spend, earn.
+Before you invest, investigate. Before you criticise, wait. Before you pray,
+forgive. Before you quit, try. Before you retire, save. Before you die, give.
+—William A. Ward
+                            <LineBreak />
+                            <LineBreak />
+The invariable mark of wisdom is to see the miraculous in the common.
+—Ralph Waldo Emerson
+                            <LineBreak />
+                            <LineBreak />
+We must not, in trying to think about how we can make a big difference,
+ignore the small daily differences we can make which, over time, add up
+to big differences that we often cannot foresee.
+—Marian Wright Edelman
+                            <LineBreak />
+                            <LineBreak />
+Shallow men believe in luck. Strong men believe in cause and effect.
+—Ralph Waldo Emerson
+                            <LineBreak />
+                            <LineBreak />
+Being an optimist after you’ve got the very thing you want doesn’t count.
+—Ken Hubbard
+                            <LineBreak />
+                            <LineBreak />
+Obstacles can’t stop you. Problems can’t stop you. Most of all, other people
+can’t stop you. Only you can stop you.
+—Jeffrey Gitomer
+                            <LineBreak />
+                            <LineBreak />
+Many of us spend half our time wishing for things we could have if we
+didn’t spend half our time wishing.
+—Alexander Woollcott
+                            <LineBreak />
+                            <LineBreak />
+The value of an idea lies in the using of it.
+—Thomas Edison
+                            <LineBreak />
+                            <LineBreak />
+
+
+                        </TextBlock>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Pivot item two-->
+            <controls:PivotItem Header="More Quotes">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Foreground="Aqua" >
+        If you think you can or if you
+think you can't, either way you
+are right.
+- Anthony Robbins
+                            <LineBreak />
+                            <LineBreak />
+ Life is full of obstacle illusions.
+—Grant Frazier
+                            <LineBreak />
+                            <LineBreak />
+When the student is ready, the master appears.
+—Buddhist proverb
+                            <LineBreak />
+                            <LineBreak />
+When one door closes another door opens; but we so often look so long
+and so regretfully upon the closed door, that we do not see the ones
+which open for us.
+—Alexander Graham Bell
+                            <LineBreak />
+                            <LineBreak />
+Most of the shadows of this life are caused by standing in one’s
+own sunshine.
+—Ralph Waldo Emerson
+                            <LineBreak />
+                            <LineBreak />
+Pessimism never won any battle.
+—Dwight D. Eisenhower
+                            <LineBreak />
+                            <LineBreak />
+You may not realise it when it happens, but a kick in the teeth may be the
+best thing in the world for you.
+—Walt Disney
+                            <LineBreak />
+                            <LineBreak />
+Too many parents make life hard for their children by trying, too zealously, to
+make it easy for them.
+—Johann von Goethe
+                            <LineBreak />
+                            <LineBreak />
+When you are offended at any man’s fault, turn to yourself and study your
+own failings. Then you will forget your anger.
+—Epictetus
+                            <LineBreak />
+                            <LineBreak />
+Courage doesn’t always roar. Sometimes courage is the little voice at the end
+of the day that says I’ll try again tomorrow.
+—Mary Anne Radmacher
+                            <LineBreak />
+                            <LineBreak />
+Never, never, never, never give up.
+—Winston Churchill
+                            <LineBreak />
+                            <LineBreak />
+Failure is an event, never a person; an attitude, not an outcome.
+—Zig Ziglar
+                            <LineBreak />
+                            <LineBreak />
+It is not death that a man should fear, but he should fear never beginning
+to live.
+—Marcus Aurelius
+                            <LineBreak />
+                            <LineBreak />
+Holding on to anger is like grasping a hot coal with the intent of throwing it
+at someone else; you are the one getting burned.
+—Buddha
+                            <LineBreak />
+                            <LineBreak />
+Nothing in the world can take the place of persistence. Talent will not;
+nothing is more common than unsuccessful men with talent. Genius will
+not; unrewarded genius is almost a proverb. Education will not; the world is
+full of educated derelicts. Persistence and determination are omnipotent.
+—Calvin Coolidge
+                            <LineBreak />
+                            <LineBreak />
+It’s not that I’m so smart. It’s just that I stay with problems longer.
+—Albert Einstein   
+                            <LineBreak />
+                            <LineBreak />
+If you never budge, don’t expect a push.
+—Malcolm S. Forbes
+                            <LineBreak />
+                            <LineBreak />
+
+                            <LineBreak />
+                            <LineBreak />
+People are always blaming their circumstances for what they are. I don’t
+believe in circumstances. The people who get on in this world are the people
+who get up and look for the circumstances they want, and, if they can’t find
+them, make them.
+—George Bernard Shaw
+                            <LineBreak />
+                            <LineBreak />
+Nothing is more expensive than a missed opportunity.
+—H. Jackson Brown Jr.
+
+                      
+       
+                        </TextBlock>
+ 
+                   </ScrollViewer>
+                </Grid>
+            </controls:PivotItem>
+            <controls:PivotItem Header="More Quotes">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Foreground="Cyan">
+A sign of wisdom and maturity is when you come to terms with the
+realisation that your decisions cause your rewards and consequences.
+You are responsible for your life, and your ultimate success depends on
+the choices you make.
+—Denis Waitley
+                            <LineBreak />
+                            <LineBreak />
+The best way to persuade people is with your ears - by listening to them.
+—Dean Rusk
+                            <LineBreak />
+                            <LineBreak />
+We don’t stop playing because we grow old; we grow old because we
+stop playing.
+—George Bernard Shaw
+                            <LineBreak />
+                            <LineBreak />
+Nothing has any power over me other than that which I give it through
+my conscious thoughts.
+—Anthony Robbins      
+                            <LineBreak />
+                            <LineBreak />
+Don’t dwell on what went wrong. Instead, focus on what to do next.
+Spend your energies on moving forward toward finding the answer.
+—Denis Waitley
+                            <LineBreak />
+                            <LineBreak />
+Our ultimate freedom is the right and power to decide how anybody or
+anything outside ourselves will affect us.
+—Stephen Covey
+                            <LineBreak />
+                            <LineBreak />
+Low self-esteem is like driving through life with your hand-break on.
+—Maxwell Maltz
+                            <LineBreak />
+                            <LineBreak />
+If you wait, all that happens is that you get older.
+—Mario Andretti
+                            <LineBreak />
+                            <LineBreak />
+I don’t want to come to the end of my life and find that I have just lived the
+length of it. I want to have lived the width of it as well.
+—Diane Ackerman
+                            <LineBreak />
+                            <LineBreak />
+ Success is not the key to happiness. Happiness is the key to success. If you
+love what you are doing, you will be successful.
+—Albert Schweitzer
+                            <LineBreak />
+                            <LineBreak />
+Life is too short to spend your precious time trying to convince a person who
+wants to live in gloom and doom otherwise. Give lifting that person your best
+shot, but don’t hang around long enough for his or her bad attitude to pull
+you down. Instead, surround yourself with optimistic people.
+—Zig Ziglar
+                            <LineBreak />
+                            <LineBreak />
+If opportunity doesn’t knock, build a door.
+—Milton Berle
+                            <LineBreak />
+                            <LineBreak />
+The more you seek security, the less of it you have. But the more you seek
+opportunity, the more likely it is that you will achieve the security that
+you desire.
+—Brian Tracy
+                            <LineBreak />
+                            <LineBreak />
+There are two educations. One should teach us how to make a living and
+the other how to live.
+—John Adams
+                            The difference between try and triumph is just a little umph!
+—Marvin Phillips
+                            <LineBreak />
+                            <LineBreak />
+The greatest crime in the world is not developing your potential. When you
+do what you do best, you are helping not only yourself, but the world.
+—Roger Williams
+                            <LineBreak />
+                            <LineBreak />
+It is a terrible thing to see and have no vision.
+—Helen Keller
+                            <LineBreak />
+                            <LineBreak />
+If you see yourself as prosperous, you will be. If you see yourself as
+continually hard up, that is exactly what you will be.
+—Robert Collier
+                            <LineBreak />
+                            <LineBreak />
+Yesterday is history. Tomorrow is a mystery. And today? Today is a gift.
+That’s why we call it the present.
+—Babatunde Olatunji
+                        </TextBlock>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PivotItem>
+            <controls:PivotItem Header="More Quotes">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Foreground="Cyan">
+Things don’t go wrong and break your heart so you can become bitter and
+give up. They happen to break you down and build you up so you can be all
+that you were intended to be.
+—Charles “Tremendous” Jones
+                            <LineBreak />
+                            <LineBreak />
+Others can stop you temporarily - you are the only one who can do
+it permanently.
+—Zig Ziglar        
+                            <LineBreak />
+                            <LineBreak />
+ Self pity is our worst enemy and if we yield to it, we can never do anything
+wise in the world.
+—Helen Keller
+                            <LineBreak />
+                            <LineBreak />
+The greatest glory in living lies not in never falling, but in rising every time
+we fall.
+—Nelson Mandela
+                            <LineBreak />
+                            <LineBreak />
+Failure is success if we learn from it.
+—Malcolm Forbes
+                            <LineBreak />
+                            <LineBreak />
+Even if you fall on your face, you’re still moving forward.
+—Robert C. Gallagher
+                            <LineBreak />
+                            <LineBreak />
+Courage is not the absence of fear, but rather the judgement that something
+else is more important than fear.
+—Ambrose Redmoon
+                            <LineBreak />
+                            <LineBreak />
+The only thing we have to fear is fear itself.
+—Franklin D. Roosevelt
+                            <LineBreak />
+                            <LineBreak />
+It doesn’t matter if you try and try and try again, and fail. It does matter if
+you try and fail, and fail to try again.
+—Charles Kettering
+                            <LineBreak />
+                            <LineBreak />
+Smooth seas do not make skilful sailors.
+—African proverb
+                            <LineBreak />
+                            <LineBreak />
+I have not failed. I’ve just found 10,000 ways that won’t work.
+—Thomas Edison
+                            <LineBreak />
+                            <LineBreak />
+If you’re going through hell, keep going.
+—Winston Churchill              
+                            <LineBreak />
+                            <LineBreak />
+When a man points a finger at someone else, he should remember that four
+of his fingers are pointing at himself.
+—Louis Nizer
+                            <LineBreak />
+                            <LineBreak />
+By failing to prepare, you are preparing to fail.
+—Benjamin Franklin
+                            <LineBreak />
+                            <LineBreak />
+There are no limitations to the mind except those we acknowledge.
+—Napoleon Hill
+                            <LineBreak />
+                            <LineBreak />
+Peak performance begins with your taking complete responsibility for your life
+and everything that happens to you.
+—Brian Tracy
+                            <LineBreak />
+                            <LineBreak />
+Underpromise; overdeliver.
+—Tom Peters       
+                            <LineBreak />
+                            <LineBreak />
+ The best and most beautiful things in this world cannot be seen or even
+heard but must be felt with the heart.
+—Helen Keller
+                            <LineBreak />
+                            <LineBreak />
+And the trouble is, if you don’t risk anything, you risk even more.
+—Erica Jong
+                            <LineBreak />
+                            <LineBreak />
+Too many people overvalue what they are not and undervalue what they are.
+—Malcolm Forbes
+                            <LineBreak />
+                            <LineBreak />
+Hard work without talent is a shame, but talent without hard work is
+a tragedy.
+—Robert Half
+                            <LineBreak />
+                            <LineBreak />
+In truth, people can generally make time for what they choose to do; it is
+not really the time but the will that is lacking.
+—Sir John Lubbock                       
+                            <LineBreak />
+                            <LineBreak />
+ Those who make the worst use of their time are the first to complain of
+its shortness.
+—Jean de la Bruyere
+                          
+                           
+
+                            <LineBreak />
+                            <LineBreak />
+
+                        </TextBlock>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PivotItem>
+            
+           
+        </controls:Pivot>
+    </Grid>
+    
+</phone:PhoneApplicationPage>

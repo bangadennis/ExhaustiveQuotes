@@ -1,0 +1,87 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="ExhaustiveQ.PanoramaPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Stories">
+
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="Motivational">
+
+
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush Stretch="None" ImageSource="/Fonts/image/single.jpg"/>
+                    </Grid.Background>
+
+
+                </Grid>
+
+            </controls:PanoramaItem>
+
+            <controls:PanoramaItem Header="coffee">
+
+
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Foreground="#FF9DDE2B">                          Care more than others think is wise Risk more than others think is safe Dream more than others think is practical Expect more than others think is possible – Anonymous
+
+                        </TextBlock>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            
+
+            <controls:PanoramaItem Header="Quotes">
+
+                <Grid>
+
+                    <ScrollViewer>
+
+                        <TextBlock TextWrapping="Wrap">
+
+                        </TextBlock>
+
+                    </ScrollViewer>
+
+                </Grid>
+
+            </controls:PanoramaItem>
+
+            <!--Panorama item Four-->
+            <controls:PanoramaItem Header="More Quotes">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Foreground="#FF9DDE2B" Margin="-10,40,10,-40">                          Care more than others think is wise Risk more than others think is safe Dream more than others think is practical Expect more than others think is possible – Anonymous
+
+                        </TextBlock>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="More Quotes">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Foreground="#FF9DDE2B" Margin="-10,40,10,-40">                          Care more than others think is wise Risk more than others think is safe Dream more than others think is practical Expect more than others think is possible – Anonymous
+
+                        </TextBlock>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+</phone:PhoneApplicationPage>

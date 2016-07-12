@@ -1,0 +1,381 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="ExhaustiveQ.Panoramasuccess2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Quotes" Foreground="DeepPink">
+
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="Welcome" Foreground="Chocolate">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="/Fonts/image/Happiness.jpg"/>
+                    </Grid.Background>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="SUCCESS">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap"  Foreground="Cyan">
+                           <LineBreak/>
+                             <LineBreak/>
+• I haven’t’ failed. I’ve found 10,000 ways that won’t work – Benjamin Franklin
+                            <LineBreak/>
+                             <LineBreak/>
+• Everything comes to him who hustles while he waits – Thomas Edison.
+                            <LineBreak/>
+                             <LineBreak/>
+• What we see depends mainly on what we look for – Sir John Lubbock,
+archaeologist
+                            <LineBreak/>
+                             <LineBreak/>
+• Do not follow where the path may lead. Go instead where there is no path and
+leave a trail—Muriel Strode, writer.
+                            <LineBreak/>
+                             <LineBreak/>
+• If we are afraid of that which is high, we shall end by giving a good imitation of
+ourselves; and of all forms of plagiarism, self-plagiarism is the worst. – W.B.J.
+Martin, Theologian
+                            <LineBreak/>
+                             <LineBreak/>
+• Results! Why man, I have gotten a lot of results. I know several thousand things
+that won’t work. – Thomas Edison, inventor
+                            <LineBreak/>
+                             <LineBreak/>
+• Remember, you can’t steal second if you don’t take your foot off first. – Mike
+Todd, entertainer.
+                             <LineBreak/>
+                             <LineBreak/>
+                            Care more than others think is wise
+Risk more than others think is safe
+Dream more than others think is practical
+Expect more than others think is possible – Anonymous
+                             <LineBreak/>
+                             <LineBreak/>
+                                • “Do what you can, with what you have, where you are.” – Theodore Roosevelt
+• This is the true joy in life, the being used for a purpose recognized by yourself as
+a mighty one . . . the being a force of nature instead of a feverish, selfish little clod
+of ailments and grievances complaining that the world will not devote itself to
+making you happy – George Bernard Shaw
+                             <LineBreak/>
+                             <LineBreak/>
+• An old Chinese proverb
+                            <LineBreak/>
+o If your vision is for a year, plant wheat.
+                            <LineBreak/>
+o If your vision is for ten years, plant trees.
+                            <LineBreak/>
+o If your vision if for a lifetime, plant people.
+                             <LineBreak/>
+                             <LineBreak/>
+                          
+• Sometimes we will fail more than we succeed but if we fail to succeed due to fear
+of failure than failure becomes our success – Anonymous
+                             <LineBreak/>
+                             <LineBreak/>
+• Once you establish a goal, it will establish you -- ??
+                             <LineBreak/>
+                             <LineBreak/>
+• I will hurry up and get ready and someday my chance will come – Lincoln
+                             <LineBreak/>
+                             <LineBreak/>
+• Do not let what you cannot do interfere with what you can do – John Wooden
+•  <LineBreak/>
+                             <LineBreak/>
+                            Today’s preparation determines tomorrow’s achievement.
+                             <LineBreak/>
+                             <LineBreak/>
+• Failure is not the worst thing in the world, the very worst is not to try.
+ <LineBreak/>
+                             <LineBreak/>
+                            • To laugh often and much; to win the respect of intelligent people and the affection
+of children; to earn the appreciation of honest critics and to endure the betrayal of
+false friends; to appreciate beauty; to find the best in others; to leave the world a
+bit better, whether by a healthy child, a garden patch, or a redeemed social
+condition; to know that even one life has breathed easier because you lived; this is
+to have succeeded – Ralph Waldo Emerson.
+ <LineBreak/>
+                             <LineBreak/>
+                            
+                        </TextBlock>
+                    </ScrollViewer>
+                    
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <controls:PanoramaItem Header="More Quotes" Foreground="Chocolate">
+                
+                    <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Foreground="#FF12F712">
+                  
+                            I suggest that the purpose has to be an attempt to leave the world a little better
+than we found it. Forced to be free to shape our own lives, we can, by example
+and initiative, slowly change the part of the world around us – Charles Handy
+                            <LineBreak/>
+                             <LineBreak/>
+                             
+• if one advances confidently in the direction of his dreams, and endeavors to live
+the life which he has imagined, he will meet with a success unexpected in
+common hours. He will pass an invisible boundary; new, universal, and more
+liberal laws will begin to establish themselves around and within him; and he will
+live with the license of a higher order of beings – Henry David Thoreau
+                            <LineBreak/>
+                             <LineBreak/>
+• What I really lack is to be clear in my mind what I am to do, not what I am to
+know . . . The thing is to understand myself, to see what God really wishes me to
+do . . . to find the idea for which I can live and die – Soren Kierkegaard.
+                            <LineBreak/>
+                             <LineBreak/>
+• I’d rather learn from one bird how to sing/Than teach ten thousand stars how not
+to dance. – e.e cummings
+                            <LineBreak/>
+                             <LineBreak/>
+• To do that [build a team], there’s just three things I’d ever have to say: If anything
+went wrong, I did it. If it went semi-good, then we did it. If anything went real
+good, then you did it. That’s all it takes to get people to win for you – Paul
+“Bear” Bryant.
+                            <LineBreak/>
+                             <LineBreak/>
+• “A failure teaches you that something can’t be done—that way.” – Thomas
+Edison
+                            <LineBreak/>
+                             <LineBreak/>
+• Principle-centered people are constantly educated by their experiences. They read,
+they seek training, they take classes, they listen to others, they learn through both
+their ears and their eyes. They are curious, always asking questions. They
+continually expand their competence, their ability to do things. They develop new
+skills, new interests. They discover that the more they know, the more they realize
+they don’t know; that as their circle of knowledge grows, so does its outside edge
+of ignorance. Most of this learning and growth energy is self-initiated and feeds
+upon itself. Principle-Centered Leadership—Stephen R. Covey
+                            <LineBreak/>
+                             <LineBreak/>
+• “Hell is full of the talented, but heaven of the energetic” – St. Jane Frances de
+Chantal (1572-1641)
+                            <LineBreak/>
+                             <LineBreak/>
+• Make no little plans. They have no magic to stir men’s blood. – Daniel H.
+Burnham
+                            <LineBreak/>
+                             <LineBreak/>
+• Find a job you love and you’ll never have to work a day in your life. Robert
+Mondavi’s third secret of success.
+                          
+                             <LineBreak/>
+• As I rode upward, I reflected on my life. . . . I saw the pattern and the privilege of
+it, and the purpose of it too. It was simply this: I was meant for a long, hard climb
+                            <LineBreak/>
+                          
+                 • Instead of seeing life as a narrow tunnel, we can see it ever widening to choose
+the things we want to do, to take the wisdom we’ve learned and create something
+– Liz Carpenter, writer.
+                         
+                             <LineBreak/>
+• The quality of a person’s life is in direct proportion to their commitment to
+excellence, regardless of their chosen field of endeavor – Vince Lombardi,
+football coach.
+                        
+                        </TextBlock>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="More Quotes" Foreground="Chocolate">
+                <Grid>
+                    <ScrollViewer>
+                    <TextBlock TextWrapping="Wrap" Foreground="Aqua">
+                            
+• I haven’t’ failed. I’ve found 10,000 ways that won’t work – Benjamin Franklin
+                            <LineBreak/>
+                             <LineBreak/>
+• Everything comes to him who hustles while he waits – Thomas Edison.
+                            <LineBreak/>
+                             <LineBreak/>
+• What we see depends mainly on what we look for – Sir John Lubbock,
+archaeologist
+                            <LineBreak/>
+                             <LineBreak/>
+• Do not follow where the path may lead. Go instead where there is no path and
+leave a trail—Muriel Strode, writer.
+                            <LineBreak/>
+                             <LineBreak/>
+• If we are afraid of that which is high, we shall end by giving a good imitation of
+ourselves; and of all forms of plagiarism, self-plagiarism is the worst. – W.B.J.
+Martin, Theologian
+                            <LineBreak/>
+                             <LineBreak/>
+• Results! Why man, I have gotten a lot of results. I know several thousand things
+that won’t work. – Thomas Edison, inventor
+                            <LineBreak/>
+                             <LineBreak/>
+• Remember, you can’t steal second if you don’t take your foot off first. – Mike
+Todd, entertainer.
+                   
+                                • Our doubts are traitors and make us lose the good we oft might gain by
+fearing to attempt. – Shakespeare
+                         <LineBreak/>
+                             <LineBreak/>
+• Twenty years from now you will be more disappointed by the things you didn’t
+do than by the ones you did. So throw off the bowlines. Sail away from the safe
+harbor. Catch the trade winds in your sails. Explore. Dream. Discover. - Mark
+Twain <LineBreak/>
+                             <LineBreak/>
+• I am willing to put myself through anything; temporary pain or discomfort means
+nothing to me as long as I can see that the experience will take me to a new level.
+I am interested in the unknown, and the only path to the unknown is through
+breaking barriers, an often painful process. – Diane Nyad, marathon swimmer
+• Ralph Waldo Emerson – If a man can write a better book, or preach a better
+sermon, or make a better mouse trap than his neighbor . . . the world will make a
+beaten path to his door.” – p. 131 <LineBreak/>
+                             <LineBreak/>
+• No work is insignificant. If a man is called to be a street sweeper, he should
+sweep streets even as Michelangelo painted, or Beethoven composed music, or
+Shakespeare wrote poetry. He should sweep streets so well that all the host of
+heaven and earth will pause to say, ‘Here lived a great street sweeper who did his
+job well.’ Martin Luther King
+                         <LineBreak/>
+                             <LineBreak/>
+• Only those who will risk going too far can possibly find out how far one can go –
+T. S. Eliot <LineBreak/>
+                             <LineBreak/>
+• All our dreams can come true, if we have the courage to pursue them – Walt
+Disney.
+                         <LineBreak/>
+                             <LineBreak/>
+• There’s only one real sin, and that is to persuade oneself that the second-best is
+anything but the second-best – Doris Lessing, writer.
+                         <LineBreak/>
+                             <LineBreak/>
+• A great deal of talent is lost to the world for want of a little courage. Every day
+sends to their graves obscure men whose timidity prevented them from making a
+first effort – Sydney Smith, essayist
+
+
+                    </TextBlock>
+                    </ScrollViewer>
+                </Grid>
+                
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="More Quotes" >
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Foreground="#FF12F712">
+                            • Would you like me to give you a formula for . . . success? It’s quite simple,
+really. Double your rate of failure. . . . You’re thinking of failure as the enemy of
+success. But it isn’t at all. . . . You can be discouraged by failure—or you can
+learn from it. So go ahead and make mistakes. Make all you can. Because,
+remember that’s where you’ll find success. Thomas J. Watson, businessman
+ <LineBreak/>
+                             <LineBreak/>
+                        • Albert Einstein said, “A lot of what can be counted doesn’t count, and a lot of
+what counts can’t be counted.”
+                         <LineBreak/>
+                             <LineBreak/>
+• To improve the golden moment of opportunity, and catch the good that is within
+our reach, is the great art of life – William James, philosopher.
+                         <LineBreak/>
+                             <LineBreak/>
+• To strive, to seek, to find, and not to yield – Lord Alfred Tennyson, poet
+ <LineBreak/>
+                             <LineBreak/>
+                        • Every calling is great when greatly pursued. – Oliver Wendell Holmes, Jr,
+physician, poet and writer.
+                         <LineBreak/>
+                             <LineBreak/>
+• The world isn’t interested in the storms you encountered, but whether or not you
+brought in the ship – Raul Armesto
+                            <LineBreak/>
+                            <LineBreak/>
+                            • If you bring forth what is within you, what you bring forth will save you. If you
+do not bring forth what is within you, then what you do not bring forth will
+destroy you – Gospel of Thomas, Gnostic Bible.
+                             <LineBreak/>
+                             <LineBreak/>
+• Life is 10 percent what you make it and 90 percent how you take it. – Irving
+Berlin, songwriter.
+                             <LineBreak/>
+                             <LineBreak/>
+• In the long run, men hit only what they aim at. Therefore, though they should fail
+immediately, they had better aim at something high. – Henry David Thoreau,
+writer and poet.
+                             <LineBreak/>
+                             <LineBreak/>
+• For all sad words of tongue and pen, The saddest are these: It might have been. –
+John Greenleaf Whittier.
+                             <LineBreak/>
+                             <LineBreak/>
+• I know this now. Every man gives his life to what he believes. Every woman
+gives her life for what she believes. Sometimes people believe in little or nothing,
+and so they give their lives to little or nothing. – Joan of Arc
+                             <LineBreak/>
+                             <LineBreak/>
+• I know not what your destiny will be, but one thing I know; the only ones among
+you who will be truly happy are those who have sought and found how to serve.”
+– Albert Schweitzer
+                                                     <LineBreak/>
+                             <LineBreak/>
+• Many people die with their music still in them. Why is this so? Too often it is
+because they are always getting ready to live. Before they know it, time runs out.
+Oliver Wendell Holmes
+                         <LineBreak/>
+                             <LineBreak/>
+• Mother Teresa said, “Few of us can do great things but all of us can small things
+    with great love.”
+                         <LineBreak/>
+                             <LineBreak/>
+                    • There is in this world no such force as the force of a man determined to rise –
+W.E.B. DuBois
+                         <LineBreak/>
+                             <LineBreak/>
+• Nothing can come of nothing – William Shakespeare
+                         <LineBreak/>
+                             <LineBreak/>
+• If you want to succeed you should strike out on new paths, rather than travel the
+worn paths of accepted success. – John D. Rockefeller
+                         <LineBreak/>
+                             <LineBreak/>
+• Failure should be our teacher, not our undertaker. Failure is delay, not defeat. It
+is a temporary detour, not a dead end. – Denis Waitley, writer and speaker.
+                         <LineBreak/>
+                             <LineBreak/>
+• Failure is only opportunity to more intelligently begin again. –Henry Ford
+ <LineBreak/>
+                             <LineBreak/>
+                        • The highest reward for a man’s toil is not what he gets for it but what he becomes
+by it. – John Ruskin, critic and social theorist
+                         <LineBreak/>
+                             <LineBreak/>
+• We are what we repeatedly do. Excellence, therefore, is not an act but a habit.-
+Aristotle
+                         <LineBreak/>
+                             <LineBreak/>
+• Even a mistake may turn out to be the one thing necessary to a worthwhile
+achievement. Henry Ford
+                         <LineBreak/>
+                             <LineBreak/>
+• Losers visualize the penalties of failure. Winners visualize the rewards of
+success. – Rob Gilber
+                         <LineBreak/>
+                             <LineBreak/>
+                        </TextBlock>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+</phone:PhoneApplicationPage>
